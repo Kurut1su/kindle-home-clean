@@ -1,0 +1,4 @@
+package/scriptlets/
+*.hbc
+*.hasm
+__pycache__/

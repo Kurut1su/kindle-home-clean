@@ -1,0 +1,7 @@
+#!/bin/sh
+# Name: Home Clean
+# Author: Kurut1su
+# DontUseFBInk
+# Icon: data:image/png;base64,@ICON@
+# Detach from the library launcher so it cannot interrupt the reboot
+setsid sh /var/local/homeclean/homeclean.sh toggle > /dev/null 2>&1 < /dev/null &

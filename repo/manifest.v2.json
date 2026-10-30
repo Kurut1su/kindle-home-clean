@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "id": "home-clean",
+  "name": "Home Clean",
+  "description": "Hides the store cards from the Kindle home screen (firmware 5.20.1.0.2 only)",
+  "packages": {
+    "home-clean": {
+      "name": "Home Clean",
+      "author": "Kurut1su",
+      "description": "Hides the Amazon store cards from the home screen. ONLY works on firmware 5.20.1.0.2.",
+      "artifacts": [
+        {
+          "url": "home-clean_1.1.0_kindlehf.kpkg",
+          "version": [
+            1,
+            1,
+            0
+          ],
+          "dependencies": [],
+          "supported_platforms": [
+            "kindlehf"
+          ]
+        }
+      ]
+    }
+  }
+}

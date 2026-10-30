@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "id": "home-clean",
+  "name": "Home Clean",
+  "author": "Kurut1su",
+  "description": "Hides the Amazon store cards from the home screen. ONLY works on firmware 5.20.1.0.2.",
+  "version": [
+    1,
+    1,
+    0
+  ],
+  "dependencies": [],
+  "supported_platforms": [
+    "kindlehf"
+  ]
+}
